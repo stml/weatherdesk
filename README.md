@@ -63,5 +63,7 @@ It would be great to have versions of the script for different operating systems
 
 This is the script mentioned in James Bridle (@stml)'s book [Ways of Being](http://jamesbridle.com/books/ways-of-being), in the chapter *Seeing like a Planet*.
 
+## Example Desktop Images
+
 ![Mediterranean cropped image](https://github.com/stml/weatherdesk/blob/main/cropped_source_mediterranean.png)
 ![Aegean cropped image](https://github.com/stml/weatherdesk/blob/main/cropped_source_aegean.png)
