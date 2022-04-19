@@ -1,9 +1,13 @@
 # weatherdesk
 A simple script for creating a desktop picture from a near-live satellite image
 
+![EUMETSAT raw image](https://github.com/stml/weatherdesk/blob/main/source_aegean.png)
+
 ## Description
 
 These are two example bash scripts for downloading the latest [EUMETSAT Natural Colour Enhanced RGB - MSG - 0 degree](https://data.eumetsat.int/product-navigator/product/EO:EUM:DAT:MSG:NCL_ENH) data - an image of Europe and Africa, updated by [Meteosat] every fifteen minutes - cropping it to an area, and setting it as a desktop image (on Linux systems).
+
+The above image shows a raw EUMETSAT image, with the cropped area shaded. The images at the end of this file show examples of cropped areas.
 
 ## How it works
 
@@ -56,3 +60,6 @@ It would be great to have versions of the script for different operating systems
 **weatherdesk** was inspired by [Satellite Eyes](https://satelliteeyes.tomtaylor.co.uk), a Mac app by Tom Taylor, and by the amazing work of remote sensing satellites and those who make them possible.
 
 This is the script mentioned in James Bridle (@stml)'s book [Ways of Being](http://jamesbridle.com/books/ways-of-being), in the chapter *Seeing like a Planet*.
+
+![Mediterranean cropped image](https://github.com/stml/weatherdesk/blob/main/cropped_source_mediterranean.png)
+![Aegean cropped image](https://github.com/stml/weatherdesk/blob/main/cropped_source_aegean.png)
