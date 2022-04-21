@@ -7,7 +7,7 @@ A simple script for creating a desktop picture from a near-live satellite image
 
 These are two example bash scripts for downloading the latest [EUMETSAT Natural Colour Enhanced RGB - MSG - 0 degree](https://data.eumetsat.int/product-navigator/product/EO:EUM:DAT:MSG:NCL_ENH) data - an image of Europe, Africa, and parts of Asia, updated by [Meteosat](https://en.wikipedia.org/wiki/Meteosat) every fifteen minutes - cropping it to an area, and setting it as a desktop image (on Linux systems).
 
-**N.B.** The image will be black during local night time! At dawn and dusk, you will see the [terminator](https://en.wikipedia.org/wiki/Terminator_(solar)), as the sun's light arrives and then leaves the hemisphere.
+**N.B.** The image will be ~~black~~ white during local night time! At dawn and dusk, you will see the [terminator](https://en.wikipedia.org/wiki/Terminator_(solar)), as the sun's light arrives and then leaves the hemisphere. (Unfortunately, the API has started returning non-alpha i.e. white-background images - working on a fix for this!)
 
 The above image shows a raw EUMETSAT image, with the cropped area shaded. The images at the end of this file show examples of cropped areas.
 
